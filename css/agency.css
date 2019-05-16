@@ -766,9 +766,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .parallax { 
   /* The image used */
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/parallax.jpg");
 
   /* Set a specific height */
+  background-color: rgba(0,0,0,0.5); 
   
 
   /* Create the parallax scrolling effect */
@@ -776,6 +777,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.noblur{
+  filter: blur(0px);
 }
 
 .logo{
@@ -808,4 +813,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .lic{
   max-height: 7d0%;
+}
+
+#about{
+  padding-bottom: 50px;
+}
+
+#faq{
+  padding-bottom: 50px;
 }
