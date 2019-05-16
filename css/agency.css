@@ -202,7 +202,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -773,10 +773,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .noblur{
@@ -819,8 +816,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   padding-bottom: 50px;
 }
 
+#license{
+  padding-top: 50px
+}
+
 #faq{
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .maincol{
@@ -833,4 +835,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .maincolh{
   color: #00c1a6;
+}
+
+@media handheld{
+
 }
