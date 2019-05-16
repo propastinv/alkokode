@@ -789,9 +789,23 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .tel{
   font-weight: 700 !important;
+  background-color: transparent !important;
+}
+
+.tel:hover{
+  border-color: #108bfe !important;
+  background-color: transparent !important;
+}
+.tel::selection{
+  background-color: transparent !important;
+  border-color: #108bfe !important;
 }
 
 .about-col{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.lic{
+  max-height: 70%;
 }
