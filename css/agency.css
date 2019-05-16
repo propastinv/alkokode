@@ -764,7 +764,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	}
 }
 
-
 .parallax { 
   /* The image used */
   background-image: url("../img/header-bg.jpg");
@@ -777,4 +776,22 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logo{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.logo-big{
+  font-size: 20px;
+}
+
+.tel{
+  font-weight: 700 !important;
+}
+
+.about-col{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
