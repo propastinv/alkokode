@@ -817,7 +817,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #license{
-  padding-top: 50px
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #faq{
