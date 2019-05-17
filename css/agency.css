@@ -133,7 +133,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #00c1a6;
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -832,7 +832,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .maincol{
-  color: #00c1a6;
+  color: black;
 }
 
 .maincol:hover{
