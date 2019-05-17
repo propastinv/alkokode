@@ -76,7 +76,7 @@ padding-top: 100px;
 
 .btn-primary {
   background-color: #00c1a6;
-  border-color: #00c1a6;
+  border-color: white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -600,14 +600,18 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #00c1a6;
+  background-color: white;
+  color: #00c1a6;
   /*background-image: url("../img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center;
+  border-bottom: solid;
+  border-top: solid;
+
 }
 
 section#contact .section-heading {
-  color: #fff;
+  color: #00c1a6;
 }
 
 section#contact .form-group {
@@ -804,12 +808,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .about-col{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
 .lic{
-  max-height: 30%;
+  max-height: 100%;
 }
 
 #about{
@@ -840,4 +845,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #services{
   border-color: #00c1a6;
+}
+
+.adress{
+  color: black;
+}
+
+.conthead{
+  padding-bottom: 90px;
+}
+
+.faqhead{
+  padding-bottom: 30px;
 }
