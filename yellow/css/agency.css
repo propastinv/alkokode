@@ -143,12 +143,12 @@ img::-moz-selection {
   font-weight: 600;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: #feff7c;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
+  color: red;
 }
 
 @media (min-width: 992px) {
@@ -172,7 +172,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: red;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -614,6 +614,8 @@ section#contact {
 
 section#contact .section-heading {
   color: red;
+  text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
 }
 
 section#contact .form-group {
@@ -842,6 +844,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .maincolh{
   color: red;
+  text-shadow: black 2px 2px 0, black -2px -2px 0, 
+  black -2px 2px 0, black 2px -2px 0;
 }
 
 #services{
@@ -884,7 +888,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .shadow{
   padding-bottom: 20px;
-  background-color: white;
+  background-color: #212529;
   padding-top: 20px;
 }
 
