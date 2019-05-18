@@ -79,12 +79,13 @@ padding-top: 100px;
   background-color: red;
   border-color: red;
   border-radius: 20px;
+  color: #feff7c;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: red !important;
   border-color: red !important;
-  color: white;
+  color: #feff7c;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -934,4 +935,8 @@ s-title-2::before {
   padding-top: 20px;
   box-shadow: 0 3rem 3rem rgba(0,0,0,.3)!important;
   border-radius: 30px;
+}
+
+.license-big{
+  width: 100%;
 }
