@@ -940,3 +940,11 @@ s-title-2::before {
 .license-big{
   width: 100%;
 }
+
+.modal-header{
+  padding: 0.7rem 0.7rem;
+}
+
+.modal-body{
+  padding: 0rem;
+}
