@@ -131,7 +131,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: white;
+  color: #feff7c;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -231,6 +231,18 @@ header.masthead .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  .tel-slider{
+    font-weight: 700 !important;
+    font-size: 470% !important;
+  }
+  .mt-156{
+    margin-top: 156px !important;
+  }
+  .left-bord{
+    border-left: solid;
+    border-top: none !important;
+    padding-top: 0px !important;
   }
 }
 
@@ -609,7 +621,7 @@ section#contact {
   /*background-image: url("../img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 150px;
+  padding-top: 50px;
 
 }
 
@@ -814,7 +826,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .tel-slider{
   font-weight: 700 !important;
-  font-size: 470% !important;
+  font-size: 40px;
 }
 
 .tel-slider:hover{
@@ -876,8 +888,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .left-bord{
-  border-left: solid;
+  border-top: solid;
   border-color: red;
+  padding-top: 15px;
 }
 
 .top-bord{
@@ -894,7 +907,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .mt-156{
-  margin-top: 156px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .shadow{
