@@ -216,7 +216,6 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -815,7 +814,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .tel-slider{
   font-weight: 700 !important;
-  font-size: 250% !important;
+  font-size: 470% !important;
 }
 
 .tel-slider:hover{

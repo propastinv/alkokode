@@ -253,7 +253,7 @@ h6,
 * + .uk-h5,
 * + h6,
 * + .uk-h6 {
-    margin-top: 40px;
+    
 }
 
 /*
@@ -705,7 +705,7 @@ a.uk-link-reset:hover,
     position: absolute;
     top: 50%;
     max-width: 100%;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid black;
 }
 
 .uk-divider-icon::before {
