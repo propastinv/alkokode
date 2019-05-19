@@ -244,6 +244,9 @@ header.masthead .intro-text .intro-heading {
     border-top: none !important;
     padding-top: 0px !important;
   }
+  .uk-accordion-title::after {
+    float: left !important;
+}
 }
 
 .service-heading {
